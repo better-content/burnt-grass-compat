@@ -1,0 +1,16 @@
+{
+  "package": "com.bettercontent.burntgrasscompat.mixin",
+  "refmap": "burnt_grass_compat.refmap.json",
+  "plugin": "com.bettercontent.burntgrasscompat.mixin.ModMixinPlugin",
+  "mixins": [
+    "burnt.GrassCatchProcedureMixin",
+    "burnt.Weather2SamplerMixin"
+  ],
+  "client": [],
+  "required": false,
+  "minVersion": "0.8",
+  "compatibilityLevel": "JAVA_17",
+  "injectors": {
+    "defaultRequire": 0
+  }
+}

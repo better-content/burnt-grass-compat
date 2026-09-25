@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "burnt_grass_compat:block/burnt_quartzite_grassy_regolith_bottom",
+    "up": "burnt:block/burnt_grass",
+    "north": "burnt_grass_compat:block/burnt_quartzite_grassy_regolith_side",
+    "east": "burnt_grass_compat:block/burnt_quartzite_grassy_regolith_side",
+    "south": "burnt_grass_compat:block/burnt_quartzite_grassy_regolith_side",
+    "west": "burnt_grass_compat:block/burnt_quartzite_grassy_regolith_side",
+    "particle": "burnt_grass_compat:block/burnt_quartzite_grassy_regolith_bottom"
+  },
+  "render_type": "solid"
+}
