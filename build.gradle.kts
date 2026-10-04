@@ -51,6 +51,8 @@ dependencies {
     testImplementation("org.junit.jupiter:junit-jupiter:5.10.2")
     compileOnly(fg.deobf("curse.maven:burnt-basic-1001031:7393519"))
     runtimeOnly(fg.deobf("curse.maven:burnt-basic-1001031:7393519"))
+    runtimeOnly(fg.deobf("curse.maven:unearthed-406825:7742307"))
+    runtimeOnly(fg.deobf("curse.maven:hyle-609850:7736352"))
     compileOnly(fg.deobf("curse.maven:weather-storms-tornadoes-237746:5244118"))
     runtimeOnly(fg.deobf("curse.maven:weather-storms-tornadoes-237746:5244118"))
     runtimeOnly(fg.deobf("curse.maven:coroutil-237749:5096038"))
