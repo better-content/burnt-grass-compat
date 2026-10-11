@@ -1,21 +1,9 @@
-# AGENTS.md
+# Burnt Grass Compatibility — validation-only
 
-## Scope
+Forge 1.20.1 / Java 17; mod ID `burnt_grass_compat`.
+Deterministic checks: `./gradlew verifyFast`; source/runtime gate: `./gradlew verifyFull`.
+Do not deploy this validation-only addon; active wildfire owns the pack behavior.
 
-This repository contains the Better Content Forge mod **Burnt Grass Compatibility**.
-
-- Canonical mod ID: `burnt_grass_compat`
-- Canonical artifact: `burnt-grass-compat-<version>.jar`
-- Maven group: `com.bettercontent`
-- Java runtime: 17
-- Minecraft/Forge baseline: 1.20.1 / 47.4.13
-
-## Commit discipline
-
-Commit after each coherent completed change. Run documented validation before committing and push the current branch.
-
-## Validation
-
-Run `./gradlew verifyFast` for deterministic checks. Run `./gradlew verifyFull` for runtime or GameTest changes. Stage deployable runtime artifacts with `./gradlew stageRuntimeJar`.
-
-Do not commit build outputs, runtime worlds, logs, IDE state, or downloaded dependency JARs.
+Read [shared workspace policy](../../better-content-modpack/docs/policies/workspace.md)
+and its linked testing/disposal policies. Docs-only changes use the shared document check
+and `git diff --check`, not unrelated runtime builds.
