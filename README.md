@@ -1,9 +1,8 @@
 # Burnt Grass Compatibility — validation-only
 
-## Scope and authority
+## Scope
 
-This repository is validation-only; active wildfire owns the pack behavior. Read
-[local instructions](AGENTS.md) and the [shared policy index](../../better-content-modpack/docs/README.md).
+This repository is validation-only; active wildfire owns the pack behavior.
 
 
 Adds Burnt variants for supported modded grass-like blocks and replaces Burnt's generic grass result with a registered variant when a mapping exists. The `burnt.moddedGrassReplacements` config setting can disable spread replacement for diagnosis. Weather2 integration is optional.
